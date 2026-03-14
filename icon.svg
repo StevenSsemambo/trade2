@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a24"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="gld" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C97A"/>
+      <stop offset="100%" stop-color="#C9A84C"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="30" y="30" width="452" height="452" rx="80" fill="none" stroke="#C9A84C" stroke-width="4" stroke-opacity="0.2"/>
+  <polyline points="60,340 160,220 240,285 370,145 450,195" fill="none" stroke="url(#gld)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="348,145 450,145 450,195" fill="none" stroke="url(#gld)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="450" text-anchor="middle" font-family="Arial Black,sans-serif" font-weight="900" font-size="68" fill="#C9A84C" letter-spacing="4">TRADE</text>
+  <text x="256" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-weight="400" font-size="28" fill="#7A6330" letter-spacing="6">BABY PRO</text>
+</svg>

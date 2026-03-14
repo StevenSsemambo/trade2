@@ -1,0 +1,60 @@
+/* Screen padding wrapper */
+.screen-pad { padding: 16px; }
+.screen-pad-x { padding-left: 16px; padding-right: 16px; }
+
+/* Mood check-in */
+.mood-grid { display: flex; gap: 8px; }
+.mood-btn { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 6px; border-radius: var(--rs); border: 2px solid var(--bdr2); cursor: pointer; transition: all .2s; font-size: 22px; }
+.mood-btn.sel { border-color: var(--gold); background: var(--gold-bg); transform: scale(1.05); }
+.mood-btn span { font-size: 10px; font-family: var(--display); font-weight: 700; color: var(--txt2); }
+
+/* Streak calendar */
+.streak-grid { display: grid; grid-template-columns: repeat(7,1fr); gap: 3px; }
+.streak-day { aspect-ratio: 1; border-radius: 3px; background: var(--bg4); }
+.streak-day.active { background: rgba(34,197,94,.6); }
+.streak-day.today { background: var(--gold); }
+
+/* Forex clock utc */
+.utc-display { font-size: 11px; color: var(--txt3); font-family: var(--mono); }
+
+/* Candle chart canvas */
+.candle-canvas { width: 100%; display: block; background: var(--bg3); }
+
+/* Pattern mini-chart container */
+.mini-chart-wrap { width: 100%; height: 160px; background: var(--bg3); border-radius: var(--rs); overflow: hidden; }
+
+/* Settings sliders */
+.slider-wrap { display: flex; align-items: center; gap: 12px; }
+.slider-wrap input[type=range] { flex: 1; accent-color: var(--gold); cursor: pointer; }
+.slider-label { font-size: 12px; color: var(--txt2); width: 36px; text-align: right; font-family: var(--mono); }
+
+/* Tour highlight */
+.tour-highlight { position: fixed; border-radius: var(--rs); box-shadow: 0 0 0 4000px rgba(0,0,0,.72), 0 0 0 3px var(--gold); z-index: 850; pointer-events: none; transition: all .4s cubic-bezier(.34,1.56,.64,1); }
+.tour-tooltip { position: fixed; background: var(--bg2); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 16px; max-width: 280px; z-index: 860; pointer-events: all; box-shadow: var(--shadow); animation: bounceIn .3s ease; }
+
+/* Candlestick visual SVGs inside lessons */
+.candle-svg-wrap { display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap; }
+
+/* Settings theme grid */
+.theme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.theme-opt { padding: 10px 12px; border-radius: var(--rs); border: 2px solid var(--bdr2); cursor: pointer; transition: all .15s; }
+.theme-opt.active { border-color: var(--gold); background: var(--gold-bg); }
+.theme-opt-label { font-weight: 700; font-size: 13px; font-family: var(--display); }
+.theme-opt-desc { font-size: 11px; color: var(--txt3); margin-top: 2px; }
+
+/* Notification permission card */
+.notif-card { background: linear-gradient(135deg, rgba(201,168,76,.1), rgba(201,168,76,.03)); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 16px; display: flex; align-items: center; gap: 14px; }
+
+/* Strategy difficulty stars */
+.diff-stars { color: var(--gold); font-size: 12px; letter-spacing: 1px; }
+
+/* Equity graph */
+.equity-wrap { background: var(--bg3); border: 1px solid var(--bdr2); border-radius: var(--r); overflow: hidden; }
+
+/* Home smart insight */
+.insight-card { display: flex; align-items: center; gap: 12px; background: var(--gold-bg); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 14px; cursor: pointer; transition: all .15s; }
+.insight-card:active { transform: scale(.98); }
+
+/* Candlestick pattern card */
+.cp-card { background: var(--bg3); border: 1.5px solid var(--bdr2); border-radius: var(--r); padding: 14px; margin-bottom: 10px; cursor: pointer; transition: all .15s; }
+.cp-card:active { transform: scale(.975); }

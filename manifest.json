@@ -1,0 +1,23 @@
+{
+  "name": "TradeBaby Pro — Complete Trading Academy",
+  "short_name": "TradeBaby Pro",
+  "description": "Complete forex & trading academy by SayMy Tech. Learn, practice, journal, master trading.",
+  "start_url": "./TradeBaby_v4.html",
+  "id": "./TradeBaby_v4.html",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0A0A0F",
+  "theme_color": "#0A0A0F",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "education"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
