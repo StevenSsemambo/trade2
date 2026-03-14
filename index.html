@@ -3230,7 +3230,7 @@ function generateResponse(input) {
    HOME SCREEN
    ═══════════════════════════════════════════ */
 
-let _clockInterval = null;
+// _clockInterval is declared in state.js — do not redeclare here
 
 function renderHome() {
   const name = STATE.user.name || 'Trader';
