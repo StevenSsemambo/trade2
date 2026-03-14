@@ -2,7 +2,7 @@
    HOME SCREEN
    ═══════════════════════════════════════════ */
 
-let _clockInterval = null;
+
 
 function renderHome() {
   const name = STATE.user.name || 'Trader';
